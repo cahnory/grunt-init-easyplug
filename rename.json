@@ -1,0 +1,8 @@
+{
+  "src/plugin.js":    "src/jquery.{%= name %}.js",
+  "test/plugin.js":   "test/{%= name %}.test.js",
+  "test/plugin.html": "test/{%= name %}.html",
+  "demo/plugin.js":   "demo/{%= name %}.demo.js",
+  "demo/plugin.css":  "demo/{%= name %}.demo.css",
+  "demo/plugin.html": "demo/{%= name %}.html"
+}

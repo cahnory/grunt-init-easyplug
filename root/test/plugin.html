@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{%= title || name %} Test Suite</title>
+
+  <script src="../libs/jquery/dist/jquery.js"></script>
+  <script src="../libs/easyPlug/dist/jquery.easyPlug.js"></script>
+
+  <!-- Load local QUnit. -->
+  <link rel="stylesheet" href="../libs/qunit/qunit.css" media="screen">
+  <script src="../libs/qunit/qunit.js"></script>
+
+  <!-- Load local lib and tests. -->
+  <script src="../src/jquery.{%= name %}.js"></script>
+  <script src="{%= name %}.test.js"></script>
+
+</head>
+<body>
+  <div>TODO write content</div>
+</body>
+</html>
